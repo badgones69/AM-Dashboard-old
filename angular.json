@@ -40,6 +40,7 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/app/shared/styles/toastr.css",
               "node_modules/flag-icons/css/flag-icons.min.css"
             ],
             "scripts": []

@@ -25,6 +25,7 @@ export class PageAboutComponent implements OnInit {
     this.properties.push({name : 'Karma', value : packageJson.devDependencies["karma"].replace('~', '')});
     this.properties.push({name : 'Jasmine', value : packageJson.devDependencies["jasmine-core"].replace('~', '')});
     this.properties.push({name : 'RxJS', value : packageJson.dependencies["rxjs"].replace('~', '')});
+    this.properties.push({name : 'NGx Toastr', value : packageJson.dependencies["ngx-toastr"].replace('^', '')});
     this.properties.push({name : 'Flag Icons', value : packageJson.dependencies["flag-icons"].replace('^', '')});
   }
 
