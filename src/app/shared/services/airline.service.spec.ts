@@ -1,8 +1,9 @@
 import {TestBed} from '@angular/core/testing';
 
-import { AirlineService } from './airline.service';
+import {AirlineService} from './airline.service';
 import {HttpClientTestingModule, HttpTestingController} from "@angular/common/http/testing";
 import dbJson from "../../../db/db.json";
+import {HTTP_GET_REQUEST} from "../constants/services-constants";
 
 describe('AirlineService', () => {
   let service: AirlineService;
@@ -25,7 +26,7 @@ describe('AirlineService', () => {
         done();
       });
 
-      const req = httpTestingController.expectOne(request => request.method === 'GET');
+      const req = httpTestingController.expectOne(request => request.method === HTTP_GET_REQUEST);
       req.flush(dbJson.airlines[0]);
     });
   });

@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {MatDialog} from "@angular/material/dialog";
-import {APP_NAME} from "../../../shared/constants/constants";
+import {APP_NAME} from "../../../shared/constants/app-constants";
 import packageJson from "../../../../../../AM-Dashboard/package.json";
 
 @Component({
