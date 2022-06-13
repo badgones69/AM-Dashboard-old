@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatDialog} from "@angular/material/dialog";
 import {PageAboutComponent} from "./help/pages/page-about/page-about.component";
 
@@ -18,6 +18,7 @@ export class AppComponent {
   constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+    // This class will never be initialized
   }
 
   menuToogle() {

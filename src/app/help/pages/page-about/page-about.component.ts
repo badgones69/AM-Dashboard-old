@@ -30,6 +30,7 @@ export class PageAboutComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // This class will never be initialized
   }
 
   closeDialog() {
