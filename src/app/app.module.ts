@@ -12,6 +12,7 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {HomeModule} from "./home/home.module";
 import {HttpClientModule} from "@angular/common/http";
 import {HelpModule} from "./help/help.module";
+import {HubModule} from "./hub/hub.module";
 import {ToastrModule} from "ngx-toastr";
 
 @NgModule({
@@ -30,6 +31,7 @@ import {ToastrModule} from "ngx-toastr";
     MatDialogModule,
     HomeModule,
     HelpModule,
+    HubModule,
     AppRoutingModule
   ],
   providers: [],

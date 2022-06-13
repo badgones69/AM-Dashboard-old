@@ -3,5 +3,4 @@ export interface IRegion {
   isoAlpha2: string,
   name: string,
   countryId: number
-  flagImageURL: string
 }
